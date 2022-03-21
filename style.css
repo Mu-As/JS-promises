@@ -1,0 +1,25 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(157, 157, 255);
+    background-color: aquamarine;
+    transition: all .5s;
+}
+
+.box.bigger {
+    width: 400px;
+    height: 400px;
+    border: 3px solid rgb(187, 46, 46);
+}
+
+.box.circle {
+    border-radius: 50%;
+}
+
+.box.move {
+    transform: translateX(400px)
+}
+
+.box.beRed {
+    background-color: darkred;
+}
